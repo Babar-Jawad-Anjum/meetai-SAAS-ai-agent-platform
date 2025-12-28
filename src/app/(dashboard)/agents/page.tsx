@@ -50,8 +50,8 @@ const Page = async ({ searchParams }: Props) => {
           <ErrorBoundary
             fallback={
               <ErrorState
-                title="Loading Agents"
-                decription="This may take a few seconds"
+                title="Error Loading Agents"
+                decription="Something went wrong"
               />
             }
           >
